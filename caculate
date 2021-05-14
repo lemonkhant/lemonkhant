@@ -13,33 +13,36 @@ def con():
             return exit
 
 #caclulate program
-while True:
-    intro=input('what is you are name ?')
-    print('hello {}'.format(intro))
+def caculate():
     while True:
-        ls=['+','-','*','/','q']
-        a=int(input('please enter the number>>'))
-        b=int(input('please enter the number>>'))
-        c=input('what do you want?')
-        if ls[0] == c:
-            result = a+b
-            print('Result:',result)
-        elif ls [1] == c:
-            result = a-b
-            print('Result:',result)
-        elif ls[2] == c:
-            result = a*b
-            print('Result:',result)
-        elif ls[3] == c:
-            result =a/b
-            print('Result:',result)
-
-        elif ls != c:
-            a=input('Do you want to quit or conitue c or q>>')
-            if a == 'c':
-                continue
-            break
-        elif ls[4] == c:
-            break
+        intro=input('what is you are name ?')
+        print('hello {}'.format(intro))
+        while True:
+            ls=['+','-','*','/','c','q']
+            a=int(input('please enter the number>>'))
+            b=int(input('please enter the number>>'))
+            c=input('what do you want?')
+            if ls[0] == c:
+                result = a+b
+                print('Result:',result)
+            elif ls [1] == c:
+                result = a-b
+                print('Result:',result)
+            elif ls[2] == c:
+                result = a*b
+                print('Result:',result)
+            elif ls[3] == c:
+                result =a/b
+                print('Result:',result)
+            elif ls != c:
+                a=input('Do you want to continue or quite,click c or q>>>>')
+                if ls[4] == a:
+                    print('you start again')
+                    continue
+                elif ls[5] == a:
+                    print('Bye Bye')
+                    break
+                break
+            continue
         break
-    break
+caculate()
