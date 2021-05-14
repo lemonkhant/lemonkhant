@@ -1,0 +1,45 @@
+
+def exit():
+    ls=['q']
+    e=input('you want to quit click the <q>')
+    if ls[0]== e:
+        exit
+
+def con():
+    while True:
+        f=input("you want to continue click C>>")
+        for i in f:
+            i == 'c'
+            return exit
+
+#caclulate program
+while True:
+    intro=input('what is you are name ?')
+    print('hello {}'.format(intro))
+    while True:
+        ls=['+','-','*','/','q']
+        a=int(input('please enter the number>>'))
+        b=int(input('please enter the number>>'))
+        c=input('what do you want?')
+        if ls[0] == c:
+            result = a+b
+            print('Result:',result)
+        elif ls [1] == c:
+            result = a-b
+            print('Result:',result)
+        elif ls[2] == c:
+            result = a*b
+            print('Result:',result)
+        elif ls[3] == c:
+            result =a/b
+            print('Result:',result)
+
+        elif ls != c:
+            a=input('Do you want to quit or conitue c or q>>')
+            if a == 'c':
+                continue
+            break
+        elif ls[4] == c:
+            break
+        break
+    break
