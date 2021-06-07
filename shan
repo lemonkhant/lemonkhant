@@ -9,7 +9,7 @@ print("welcom to the shan ko me game")
 me=input('please enter the name>>>')
 print(f'welcom {me}')
 ru=input('plese read the rule r/continue to c>>')
-if ru == a[0]:
+if ru == all[0]:
     print('you are age is 18+')
     print('you are show money is 10000')
 while ru == all[1]:
