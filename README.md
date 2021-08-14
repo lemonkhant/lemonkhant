@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @lemonkhant
 - 👀 I’m interested in ...Computer Science
-- 🌱 I’m currently learning ...python
+- 🌱 I’m currently learning ...python,java
+- 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...minkhantkyaw@engineer.com
 
