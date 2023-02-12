@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @lemonkhant
 - 👀 I’m interested in ...Computer Science
-- 🌱 I’m currently learning ...python,java,HTML,CSS
+- 🌱 I’m currently learning ...python,java basic,HTML,CSS,flutter,dart,
 - 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...minkhantkyaw@engineer.com
