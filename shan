@@ -1,0 +1,46 @@
+import random
+import sys
+import time
+
+all=['r','c']
+b=[1,2,3,4,5,6,7,8,9,10]
+c=[10,9,8,7,6,5,4,3,2,1]
+print("welcom to the shan ko me game")
+me=input('please enter the name>>>')
+print(f'welcom {me}')
+ru=input('plese read the rule r/continue to c>>')
+if ru == all[0]:
+    print('you are age is 18+')
+    print('you are show money is 10000')
+while ru == all[1]:
+    e=int(input('please enter the you are age>>'))
+    ney=int(input('please enter the you money>>>'))
+    b=[1,2,3,4,5,6,7,8,9,10]
+    c=[10,9,8,7,6,5,4,3,2,1]
+    while e > 18 and ney >9999:
+        player1=int(input('player1 rasie you are money>>'))
+        player2=int(input('player2 rasie you are money>>'))
+        def player1(*non):
+            o=random.randint(1,10)
+            d=random.randint(1,10)
+            show1=f'This is player1 card {o} & {d}'
+            print(show1)
+            return c + d    
+        def player2(*non):
+            a=random.randint(1,10)
+            b=random.randint(1,10)
+            show2=f'This is player2 card {a} & {b}'
+            print(show2)
+            return a + b 
+
+        e=player1()
+        i=player2()
+
+        def re():
+            if e > i:
+                print('player1 win')
+            elif e < i:
+                print('player2 win ')
+            elif e == i:
+                print('Draw')
+        re()
